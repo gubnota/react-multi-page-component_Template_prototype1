@@ -1,0 +1,24 @@
+.overlay {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+background-color: rgba(0,0,0,.5);
+z-index: 999;
+text-align: center;
+display: block;
+}
+.overlay .message {
+background: #eee;
+width: 80%;
+height: 30%;
+position: absolute;
+left: 50%;
+margin-left: -40%;
+top: 50%;
+margin-top: -10%;
+border-radius: 3vh;
+}
+.overlay .message p{
+	line-height: 25vh;
+}

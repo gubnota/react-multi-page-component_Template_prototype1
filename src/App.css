@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  flex: 189vh;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+} 
+::-webkit-scrollbar-track {
+    width: 0;
+}
+::-webkit-scrollbar-thumb {
+    width: 0;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

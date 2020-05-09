@@ -1,0 +1,22 @@
+.bottom {
+background: #eee !important;
+display: flex;
+flex-direction: row;
+flex: 10 1 3em;
+overflow: hidden;
+border-top: rgba(255,255,255,0.1) solid 1vh;
+}
+.theme-5.bottom {background: #fff !important;}
+.bottom.fixed {
+position: fixed;
+bottom: 0;
+}
+.bottom div{
+flex: 1 1 auto;
+color: #000;
+font-size: 1.5em;
+border: 1px solid trasnparent;
+text-align: center;
+font-weight: 700;
+width: 33.3vw;
+}

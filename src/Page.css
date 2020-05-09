@@ -1,0 +1,50 @@
+.Page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+  overflow: hidden;
+  min-height: 89vh;
+}
+
+.Page-logo {
+  background-color: #ccc;
+  flex: 1 1 auto;
+  min-height: 40vh;
+  width: 100vw;
+  align-self:center;
+/*  background-size: 150vw auto;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-bottom: #ccc solid 1vh;
+}
+
+.Page-header {
+  font-size: calc(5vh);
+  text-align: center;
+  font-weight: 700;
+  font-family: Gill Sans, sans-serif;
+  height: auto;
+  /*flex: 96 1 auto;*/
+  flex: 96;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.text{
+  flex: 1 1 auto;
+  background: #fff;
+  color: black;
+  text-align: left;
+  min-height: 55vh;
+}
+.text p{
+    padding: 1vh 1vw;
+}
+.text img {
+  display: flex;
+  /*border:#eee 1vmin solid;*/
+  box-shadow:rgba(0,0,0,0.1) 0 1vmin 0,rgba(0,0,0,0.1) 0 -1vmin 0;
+}

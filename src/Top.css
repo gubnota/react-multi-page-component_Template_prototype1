@@ -1,0 +1,16 @@
+.top {
+display: flex;
+flex-direction: row;
+line-height: 4em;
+/*height: 2em;*/
+overflow: hidden;
+flex-grow: 11;
+}
+
+.top div{
+flex: 1 1 auto;
+font-size: 1.4em;
+font-family: Gill Sans, sans-serif;
+border: 1px solid trasnparent;
+font-weight: 700;
+}
